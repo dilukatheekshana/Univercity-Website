@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome & Login</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    Update Student Details
+    <br><br>
+    <form action="http://localhost/StudentUpdate.php" method="post" name="form1">
+        <label for="nic">NIC</label>
+        <input type="text" name="nic">
+        <br><br>
+        <label for="name">Student Name</label>
+        <input type="text" name="name">
+        <br><br>
+        <label for="address">Address</label>
+        <input type="text" name="address">
+        <br><br>
+        <label for="tel">Telephone Number</label>
+        <input type="number" name="tel">
+        <br><br>
+        <label for="category">Course</label>
+        <select name="category">
+            <option value="Software Engineering">Software Engineering</option>
+            <option value="Business Management">Business Management</option>
+            <option value="English">English</option>
+        </select>
+        <br><br><br><br>
+        <button>Update Student</button>
+        <br><br>
+        <button><a href="HomePage.html">Home</a></button>
+    </form>
+</body>
+</html>
